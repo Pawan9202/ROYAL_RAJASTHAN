@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ROYAL RAJASTHAN</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="lib/aos/aos.css" />
+  <link rel="stylesheet" href="lib/swiper/swiper-bundle.min.css" />
+
+  <style>
+
+  html {
+  scroll-behavior: smooth;
+}
+
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+    }
+    .text-maroon {
+      color: #800000;
+    }
+  </style>
+</head>
+<body class="bg-white text-neutral-900">
+
+  <!-- Navbar -->
+  <header class="Relative top-0 w-full z-50 bg-white/70 backdrop-blur-md shadow-md">
+    <nav class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="text-2xl font-bold text-maroon tracking-wide font-playfair">
+        ROYAL RAJASTHAN
+      </div>
+     <ul class="hidden md:flex space-x-6 text-base font-medium text-gray-800">
+  <li><a href="#home" class="hover:text-[#800000] transition-colors">Home</a></li>
+  <li><a href="#destinations" class="hover:text-[#800000] transition-colors">Destinations</a></li>
+  <li><a href="#gallery" class="hover:text-[#800000] transition-colors">Gallery</a></li>
+  <li><a href="#about" class="hover:text-[#800000] transition-colors">About</a></li>
+  <li><a href="#contact" class="hover:text-[#800000] transition-colors">Contact</a></li>
+</ul>
+
+<a href="#destinations" class="ml-4 bg-[#DAA520] text-white px-4 py-2 rounded hover:bg-[#800000] transition-colors duration-300">
+  Explore
+</a>
+
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="h-screen bg-cover bg-center flex items-center justify-center text-white relative" style="background-image: url('https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="relative text-center px-4" data-aos="fade-up">
+      <h1 class="text-4xl md:text-6xl font-playfair font-bold mb-4">Experience the Royal Heritage of Rajasthan</h1>
+      <p class="text-lg md:text-xl mb-6">Discover timeless traditions, majestic forts, and golden deserts</p>
+    </div>
+  </section>
+
+  <!-- Destinations -->
+  <section id="destinations" class="max-w-6xl mx-auto py-12 px-4">
+    <h2 class="text-3xl font-bold text-maroon mb-8 text-center">Top Cities to Explore</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      
+    <!-- Jaipur -->
+    <a href="jaipur.html" class="block shadow-md rounded overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      <img src="./images/jaipur.jpg" class="w-full h-56 object-cover" alt="Jaipur">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold text-maroon">Jaipur</h3>
+        <p>The capital city, known for Amber Fort, City Palace, Hawa Mahal.</p>
+      </div>
+    </a>
+
+    <!-- Udaipur -->
+    <a href="udaipur.html" class="block shadow-md rounded overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      <img src="./images/udaipur.jpg" class="w-full h-56 object-cover" alt="Udaipur">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold text-maroon">Udaipur</h3>
+        <p>Famous for beautiful lakes, City Palace, and romantic settings.</p>
+      </div>
+    </a>
+
+    <!-- Jaisalmer -->
+    <a href="jaisalmer.html" class="block shadow-md rounded overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      <img src="./images/jaiselmer.jpg" class="w-full h-56 object-cover" alt="Jaisalmer">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold text-maroon">Jaisalmer</h3>
+        <p>Known for its golden sand dunes, majestic forts, and enchanting desert culture.</p>
+      </div>
+    </a>
+
+    <!-- Bikaner -->
+    <a href="bikaner.html" class="block shadow-md rounded overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      <img src="./images/Bikaner.jpg" class="w-full h-56 object-cover" alt="Bikaner">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold text-maroon">Bikaner</h3>
+        <p>Celebrated for its grand forts, vibrant bazaars, and rich culinary heritage.</p>
+      </div>
+    </a>
+
+    <!-- Ajmer -->
+    <a href="ajmer.html" class="block shadow-md rounded overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      <img src="./images/Ajmer.jpg" class="w-full h-56 object-cover" alt="Ajmer">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold text-maroon">Ajmer</h3>
+        <p>Renowned for its sacred Dargah Sharif, serene Ana Sagar Lake, and rich Mughal heritage.</p>
+      </div>
+    </a>
+
+    <!-- Jodhpur -->
+    <a href="jodhpur.html" class="block shadow-md rounded overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      <img src="./images/jodhpur.jpg" class="w-full h-56 object-cover" alt="Jodhpur">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold text-maroon">Jodhpur</h3>
+        <p>Known as the Blue City, home to Mehrangarh Fort and Umaid Bhawan Palace.</p>
+      </div>
+    </a>
+
+    </div>
+  </section>
+
+  <!--Gallery-->
+
+<section id="gallery" class="bg-white text-neutral-900 py-12 px-4">
+  <h2 class="text-3xl font-bold text-maroon mb-8 text-center">Gallery</h2>
+  <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    <img src="https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80" alt="Hawa Mahal, Jaipur" class="rounded-lg shadow-md">
+    <img src="https://plus.unsplash.com/premium_photo-1661904165347-369200d4bf72?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Jodhpur" class="rounded-lg shadow-md">
+    <img src="https://plus.unsplash.com/premium_photo-1661962542692-4fe7a4ad6b54?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Rajasthan Camel Safari" class="rounded-lg shadow-md">
+    <img src="https://images.unsplash.com/photo-1514007631454-28669d6cc960?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bikaner Fort" class="rounded-lg shadow-md">
+    <img src="https://images.unsplash.com/photo-1650709244890-cc35b30d8036?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Rajasthani Cultural Dance" class="rounded-lg shadow-md">
+    <img src="https://plus.unsplash.com/premium_photo-1694475128245-999b1ae8a44e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Chittorgarh Fort" class="rounded-lg shadow-md">
+  </div>
+</section>
+<!--about-->
+<section id="about" class="bg-white text-neutral-900 py-12 px-4">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-4xl font-bold text-maroon mb-6 text-center">Discover Royal Rajasthan</h2>
+    <p class="text-lg leading-relaxed text-gray-700 mb-6 text-justify">
+      Welcome to <span class="font-semibold text-maroon">Royal Rajasthan</span> — your immersive journey into the majestic heart of India. Known as the Land of Kings, Rajasthan is a celebration of history, architecture, color, and culture. Our platform is dedicated to capturing the essence of this timeless state and presenting it to travelers, explorers, and culture lovers around the globe.
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+      <div>
+        <h3 class="text-xl font-semibold text-maroon mb-2">Why Royal Rajasthan?</h3>
+        <ul class="list-disc list-inside text-gray-700 leading-relaxed">
+          <li>Authentic insights into Rajasthan’s forts, palaces, and deserts</li>
+          <li>Cultural highlights — from folk music to traditional cuisine</li>
+          <li>Handpicked destinations and travel tips for every type of explorer</li>
+          <li>Inspiring photography and immersive galleries</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold text-maroon mb-2">Our Mission</h3>
+        <p class="text-gray-700 leading-relaxed">
+          We aim to celebrate the heritage of Rajasthan by showcasing its beauty through compelling stories, visuals, and experiences. Whether you're planning your first visit or reliving cherished memories, Royal Rajasthan is your royal companion on the road to discovery.
+        </p>
+      </div>
+    </div>
+
+    <div class="bg-[#FFF8DC] p-6 rounded-lg shadow-md">
+      <h3 class="text-2xl font-semibold text-maroon mb-3">Join the Journey</h3>
+      <p class="text-gray-800 leading-relaxed">
+        Every corner of Rajasthan tells a story. Come explore with us — wander through ancient forts, marvel at architectural wonders, ride camels across golden dunes, and savor the rich traditions of the royal state. <span class="font-medium text-maroon">Let’s rediscover Rajasthan together.</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!--contacts-->
+<section id="contact" class="bg-white text-neutral-900 py-12 px-6">
+  <div class="max-w-3xl mx-auto">
+    <h2 class="text-4xl font-bold text-maroon mb-4 text-center">Contact Us</h2>
+    <p class="text-lg text-gray-700 text-center mb-10">
+      We'd love to hear from you! Whether you have a question about destinations, suggestions, or anything else — our team is ready to help you explore the royal heritage of Rajasthan.
+    </p>
+
+    <form class="space-y-6 bg-[#FFF8DC] p-8 rounded-lg shadow-md">
+      <div>
+        <label class="block text-gray-800 font-medium mb-1">Name <span class="text-red-500">*</span></label>
+        <input type="text" placeholder="Your Full Name" class="w-full border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-[#DAA520]" required>
+      </div>
+      <div>
+        <label class="block text-gray-800 font-medium mb-1">Email <span class="text-red-500">*</span></label>
+        <input type="email" placeholder="you@example.com" class="w-full border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-[#DAA520]" required>
+      </div>
+      <div>
+        <label class="block text-gray-800 font-medium mb-1">Message <span class="text-red-500">*</span></label>
+        <textarea rows="5" placeholder="Write your message here..." class="w-full border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-[#DAA520]" required></textarea>
+      </div>
+      <button type="submit" class="bg-[#DAA520] hover:bg-[#800000] transition duration-300 text-white font-semibold px-6 py-3 rounded-lg shadow">
+        ✉️ Send Message
+      </button>
+    </form>
+
+    <div class="mt-10 text-center text-gray-600 text-sm">
+      📍 Jaipur, Rajasthan &nbsp;|&nbsp; ☎️ +91-9876543210 &nbsp;|&nbsp; 📧 royalrajasthan@example.com
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-[#fdf6e3] text-gray-800 mt-16 border-t border-gray-300">
+ <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-center sm:text-left">
+
+    <!-- About -->
+    <div>
+      <h4 class="text-2xl font-bold text-[#800000] mb-4">ROYAL RAJASTHAN</h4>
+      <p class="text-sm text-gray-700 leading-relaxed">
+        Immerse yourself in the majestic heritage of Rajasthan—explore vibrant cities, timeless forts, royal palaces, and rich traditions.
+      </p>
+    </div>
+
+    <!-- Useful Links -->
+    <div>
+      <h5 class="text-lg font-semibold text-[#800000] mb-4">Explore</h5>
+      <ul class="space-y-2 text-sm">
+        <li><a href="#home" class="hover:text-[#800000] transition">Home</a></li>
+        <li><a href="#destinations" class="hover:text-[#800000] transition">Destinations</a></li>
+        <li><a href="#gallery" class="hover:text-[#800000] transition">Gallery</a></li>
+        <li><a href="#about" class="hover:text-[#800000] transition">About</a></li>
+        <li><a href="#contact" class="hover:text-[#800000] transition">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Newsletter -->
+    <div>
+      <h5 class="text-lg font-semibold text-[#800000] mb-4">Stay Updated</h5>
+      <p class="text-sm text-gray-700 mb-3">Get travel tips and exclusive deals delivered to your inbox.</p>
+      <form class="flex flex-col sm:flex-row gap-2">
+        <input type="email" placeholder="Your email" class="w-full px-3 py-2 text-sm rounded border border-gray-300 focus:ring-2 focus:ring-[#DAA520] focus:outline-none">
+        <button type="submit" class="bg-[#DAA520] hover:bg-[#800000] text-white px-4 py-2 rounded text-sm transition">Subscribe</button>
+      </form>
+    </div>
+
+    <!-- Social Media -->
+    <div>
+      <h5 class="text-lg font-semibold text-[#800000] mb-4">Connect With Us</h5>
+      <div class="flex justify-center sm:justify-start space-x-4 text-2xl text-gray-600">
+        <a href="#" class="hover:text-[#800000]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="hover:text-[#800000]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="hover:text-[#800000]" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="hover:text-[#800000]" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Bottom Bar -->
+<div class="w-full bg-[#fdf6e3] border-t border-gray-300 text-center py-4 text-sm text-gray-600 font-medium">
+  © 2025 Royal Rajasthan. Crafted with culture & code.
+</div>
+
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <!-- ✅ SCRIPTS (Place at the end of body for performance) -->
+
+  <!-- AOS.js -->
+  <script src="lib/aos/aos.js"></script>
+  <script>
+    AOS.init(); // Initialize AOS
+  </script>
+
+  <!-- Swiper JS (if used in Gallery/Sliders) -->
+  <script src="lib/swiper/swiper-bundle.min.js"></script>
+  <script>
+    // Example Swiper Init (customize later)
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
+</body>
+</html>
